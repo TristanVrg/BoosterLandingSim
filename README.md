@@ -26,7 +26,7 @@ The simulation is based on a 2D vertical motion model (can be extended to 3D lat
 The gravitational force is given by:
 
 $$
-\vec{F}_g = m \cdot \vec{g}
+\vec{F}_g(t) = m(t) \cdot \vec{g} = -m(t) g \vec{e_z}
 $$
 
 Where:
